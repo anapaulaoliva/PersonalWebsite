@@ -88,18 +88,19 @@ section#home {
     background:  #06081e;
 }
 
-section#about {
-    background: #9a8c98;
+
+section#projects {
+    background: rgb(173, 129, 6);
 
 }
 
-section#projects {
-    background: #4a4e69;
+section#about {
+    background: rgb(153, 113, 3);
 
 }
 
 section#contact {
-    background: rgb(182, 149, 1);
+    background: rgb(107, 83, 3);
 
 
 }
