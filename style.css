@@ -132,6 +132,10 @@ section#portfolio {
     width: 10vw;
     height:10vw;
 }
+#self {
+    width: 20vw;
+    height: 20vw;
+}
 .title {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: rgba(95, 93, 93, 0.459);
@@ -139,12 +143,20 @@ section#portfolio {
     font-size: 1.5vw;
     margin-top: .5em;
 }
-section#about {
-
-
+#websites {
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    padding: .5em;
 }
-
-section#contact {
+.website-logo {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+section#resume {
+    display: flex;
+    flex-flow: wrap row;
 
 
 }
