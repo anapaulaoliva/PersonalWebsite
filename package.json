@@ -1,0 +1,19 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Personal website",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anapaulaoliva/PersonalWebsite.git"
+  },
+  "author": "\u001b[5~Ana Paula Oliva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anapaulaoliva/PersonalWebsite/issues"
+  },
+  "homepage": "https://github.com/anapaulaoliva/PersonalWebsite#readme"
+}
