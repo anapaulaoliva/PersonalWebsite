@@ -10,3 +10,6 @@ Learning a lot and having fun building my website from scratch using Pure CSS. ^
 * Photopea 
 (For logo design.)
 
+/TODO: Responsivo
+/TODO: Hover efect con informacion de las cards 
+/TODO: Boton scroll up hasta el final
