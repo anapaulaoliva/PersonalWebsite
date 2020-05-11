@@ -13,3 +13,5 @@ Learning a lot and having fun building my website from scratch using Pure CSS. ^
 /TODO: Responsivo
 /TODO: Hover efect con informacion de las cards 
 /TODO: Boton scroll up hasta el final
+/TODO: Nightmode 
+/TODO: Adjuntar CV
