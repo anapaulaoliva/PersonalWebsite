@@ -157,7 +157,31 @@ section#portfolio {
 section#resume {
     display: flex;
     flex-flow: wrap row;
+}
+#cv {
+    border: 1px solid rgba(51, 51, 51, 0.596);
+    outline: none;
+    border-radius: .3em;
+    padding: .3em;
+    cursor:pointer;
+}
+#cv:hover {
+    animation-name: cv-button;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
 
-
+@keyframes cv-button {
+    from {
+        color: #f4f4f4;
+    }
+    to {
+        outline: none;
+        border-radius: .3em;
+        padding: .3em;
+        color: #f4f4f4;
+        background-color: #333;
+        border: 1px solid #f4f4f4;
+    }
 }
 
