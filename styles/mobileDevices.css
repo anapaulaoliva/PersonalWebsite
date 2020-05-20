@@ -1,0 +1,110 @@
+/* Mobile devices */
+
+@media (max-width: 500px) {
+
+    body {
+        color: #353535;
+    }
+
+    .navbar {
+        background-color: rgb(73, 73, 73);
+        overflow: hidden;
+        position: fixed;
+        bottom: 0 !important;
+        width: 100%;
+        height: 40px; 
+        display: flex;
+    }
+    
+    .navbar ul li {
+        margin: 0 1rem;
+        padding: 1rem;
+    }
+    
+    .navbar ul li a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #f4f4f4;
+    }
+        
+    section#portfolio {
+        background: #f4f4f4;
+        width: 100%;
+        height: 100%;
+        display: flex;
+    }
+
+    .card-container {  
+        background: rgba(197, 186, 167, 0.082);
+        width: 100vw;
+        height: 100%;
+        display: flex;
+        flex-flow: wrap row;
+        justify-content: space-evenly;
+    }
+
+    .card {
+        box-shadow: 1px 1px 5px 1px rgba(128, 128, 128, 0.274);
+        width: 25vh;
+        height: 35vh;
+        border-radius: 10px;
+        border: 2px solid rgba(172, 172, 172, 0.5);
+        display: flex;
+        flex-flow: wrap column;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        margin-top: 1em;
+    }
+
+    #logo {
+        min-width: 30vw;
+        min-height: 30vw;
+    }
+
+    .title {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: rgba(7, 7, 7, 0.685);
+        font-weight: bolder;
+        font-size: 4.5vw;
+        margin-top: .5em;
+    }
+
+    /* About */
+
+    section#resume {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+    }
+
+    #self {
+        width: 30vw;
+        height: 30vw;
+    }
+
+    .resume-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: unset;
+
+    }
+    .resume-contact {
+        border-radius: 50px;
+        background-color: unset;
+    }
+
+    #websites {
+        background-color: transparent;
+    }
+    #cv {
+        border: 1px solid rgba(73, 73, 73, 0.596);
+        background-color: transparent;
+        outline: none;
+        border-radius: .3em;
+        padding: .3em;
+        cursor:pointer;
+    }
+    
+}
